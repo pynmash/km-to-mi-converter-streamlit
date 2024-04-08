@@ -1,7 +1,7 @@
 import streamlit as st
 import backend
 
-st.title("Kilometers                                        Miles Converter")
+st.title("Kilometers ⇌ Miles Converter")
 
 conversion = st.radio("Choose the conversion direction",
                       ["Kilometers to miles", "Miles to kilometers"],
